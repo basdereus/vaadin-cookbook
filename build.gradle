@@ -1,0 +1,14 @@
+subprojects {
+  apply plugin: 'war'
+  apply plugin: 'eclipse-wtp'
+
+  repositories {
+    mavenCentral()
+  }
+
+  sourceCompatibility = 1.6
+
+  dependencies {
+    compile "com.vaadin:vaadin:6.8.2"
+  }
+}
