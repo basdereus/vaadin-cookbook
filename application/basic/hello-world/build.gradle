@@ -1,0 +1,23 @@
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+  mavenCentral()
+}
+
+sourceCompatibility = 1.6
+
+dependencies {
+  compile "com.vaadin:vaadin:6.8.2"
+}
+
+task "create-dirs" << {
+  sourceSets*.java.srcDirs*.each {
+    it.mkdirs()
+  }
+  sourceSets*.resources.srcDirs*.each {
+    it.mkdirs()
+  }
+  mkdir webAppDirName
+  mkdir webAppDirName + "/WEB-INF"
+}

@@ -1,1 +1,2 @@
-include "application:javascript:jquery"
+include "application:javascript:jquery",
+  "application:basic:hello-world"
