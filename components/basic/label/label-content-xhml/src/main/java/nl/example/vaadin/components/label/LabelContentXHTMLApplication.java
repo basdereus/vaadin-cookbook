@@ -9,9 +9,9 @@ public class LabelContentXHTMLApplication extends Application {
 
   @Override
   public void init() {
-    final Window mainWindow = new Window("WelcomeLabel");
+    final Window mainWindow = new Window("Welcome Label");
 
-    Label welcomeLabel = new Label("Welcom to " + 
+    Label welcomeLabel = new Label("Welcome to " + 
         "<i style'color:red' title='Welcome Vaadin Cookbook'>Vaadin Cookbook</i>", 
         Label.CONTENT_XHTML);
 

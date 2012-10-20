@@ -1,4 +1,4 @@
-package nl.bdr.vaadin.application.jquery;
+package nl.example.vaadin.application.jquery;
 
 import com.vaadin.Application;
 import com.vaadin.ui.Button;

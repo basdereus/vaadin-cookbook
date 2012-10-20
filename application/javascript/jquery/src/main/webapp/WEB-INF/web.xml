@@ -11,12 +11,12 @@
   <servlet>
     <servlet-name>JQueryApplication</servlet-name>
     <servlet-class>
-    	nl.bdr.vaadin.terminal.gwt.server.JQueryApplicationServlet
+    	nl.example.vaadin.terminal.gwt.server.JQueryApplicationServlet
     </servlet-class>
     <init-param>
       <param-name>application</param-name>
       <param-value>
-        nl.bdr.vaadin.application.jquery.JQueryApplication
+        nl.example.vaadin.application.jquery.JQueryApplication
       </param-value>
     </init-param>
   </servlet>

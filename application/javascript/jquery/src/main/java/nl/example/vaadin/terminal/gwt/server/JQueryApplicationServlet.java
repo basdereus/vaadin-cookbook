@@ -1,4 +1,4 @@
-package nl.bdr.vaadin.terminal.gwt.server;
+package nl.example.vaadin.terminal.gwt.server;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 
-import nl.bdr.vaadin.application.jquery.JQueryApplication;
+import nl.example.vaadin.application.jquery.JQueryApplication;
 
 import com.vaadin.Application;
 import com.vaadin.terminal.gwt.server.ApplicationServlet;
